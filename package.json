@@ -1,0 +1,14 @@
+{
+  "name": "create-own-arweave-address",
+  "version": "0.1.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["arweave","wallet-generator"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arweave": "^1.11.6"
+  }
+}
