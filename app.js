@@ -7,7 +7,7 @@ const arweave = init({
     protocol: 'https'
 });
 
-const array = fs.readFileSync('keywords.txt').toString().split("\r\n").join("|");
+const array = fs.readFileSync('keywords.txt').toString().split("\n").join("|");
 const regex = new RegExp(`^(${array})`, 'gmi');
 
 const generator = async () => {
